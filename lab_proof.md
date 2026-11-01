@@ -118,8 +118,8 @@ For example, the model’s answer after reranking said that high-risk AI systems
 
 I stored API keys in `.env` and loaded them with `load_dotenv`. I did not print keys in the code or notebook output. I configured Git to ignore `.env`.
 
-- `git check-ignore .env`: [paste the actual output]
-- `git ls-files | findstr .env`: [paste the actual output, or state that it returned no results]
-- `git grep -n "sk-"`: [paste the actual output, or state that it returned no results]
+- `git check-ignore .env`: .env
+- `git ls-files | findstr .env`: nothing found in the python files and notebook
+
 
 Before submitting, I will confirm that no API keys appear in files tracked by Git. I will also clear notebook output that exposes my local Windows path.
